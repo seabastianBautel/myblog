@@ -1,0 +1,181 @@
+header{
+    position: fixed;
+    width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background:#fafafa;
+	margin-bottom:20px; 
+    border-radius: 2px;
+    border-bottom: 1px solid rgb(190, 184, 184);  
+}
+body,h4,html{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+h4{
+    border-radius: 3px;
+   
+}
+.logo{
+    background-color: lightgrey;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    padding-bottom: 10px;
+    padding-top: 6px;
+    color: lightseagreen;
+    padding-left: 40px;
+    
+}
+.contenido-header{
+    color: black;
+    border-radius: 2px;
+    padding-bottom: 25px;
+}
+.of-people,.of-people2{
+    font-size:larger;
+    color: black;
+    border-radius: 2px;
+    width: 90%;
+    overflow: hidden;
+    padding-left: 60px;
+    text-decoration: none;
+}
+.of-people2{
+    font-size: small;
+}
+.Developer-css{
+    text-decoration: none;
+    color: black;
+    padding-left: 1050px;
+}
+.Developer-css:hover{
+    color:inherit;
+ }
+.Developer-text{
+    padding-left: 20px;
+    position:fixed;
+    text-decoration: none;
+}
+.lupa{
+    margin-left: 600px;
+   
+    
+}
+.lupa-img{
+    padding-right: 10px;
+    
+    border-right: 2px solid lightslategrey; 
+}
+.Sesion{
+    color: lightseagreen;
+    text-decoration: none;
+    border-radius: 3px;
+    border-right: 2px solid lightseagreen;
+    border-left: 2px solid lightseagreen;
+    border-bottom: 2px solid lightseagreen;
+    border-top: 2px solid lightseagreen;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;   
+}
+.registrate{
+    margin-left: 15px;
+    text-decoration: none;
+    background-color: lightseagreen;
+    color: #fafafa;
+    border-radius: 3px;
+    border-right: 2px solid lightseagreen;
+    border-left: 2px solid lightseagreen;
+    border-bottom: 2px solid lightseagreen;
+    border-top: 2px solid lightseagreen;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;  
+}
+.nav,.content{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.content{
+    border-radius: 40px;
+    padding-top: 110px;
+    text-align: left;
+}
+.nav-home,.nav-digital{
+    text-decoration: none;
+    color: black;
+}
+.nav-digital{
+    padding-left: 6px;
+}
+.entrar{
+    padding-left: 60px;
+}
+  @media (max-width: 1330px) {
+    .Developer-css{
+        padding-left: 600px;
+    }
+    .lupa{
+        margin-left: 200px; 
+    }
+  }
+
+
+  @media (max-width: 950px) {
+    .Developer-text{
+        padding-left: 0px;
+    }
+    .of-people{
+        padding-left: 30px;
+    }
+    .of-people2{
+        padding-left: 0px;
+    }
+    .entrar{
+        margin-left: 10px;
+        text-decoration: none;
+        background-color: lightseagreen;
+        color: #fafafa;
+        border-radius: 1px;
+        border-right: 1px solid lightseagreen;
+        border-left: 1px solid lightseagreen;
+        border-bottom: 1px solid lightseagreen;
+        border-top: 1px solid lightseagreen;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;  
+    }
+    .Developer-css{
+        padding-left: 130px;
+    }
+    .Sesion ,.registrate{
+        display: none;
+    }
+    .lupa{
+        margin-left: 6px;
+    }
+    .img-content{
+        padding-right: 40%;
+        width: 200px;
+    }
+    p{
+        font-size: small;
+    }
+   
+    .nav-digital,.nav-home{
+        font-size: x-small;
+        padding-left: 6px;
+    }
+    .contenido-header{
+        padding-bottom: 10px;
+    }
+  }
+  @media (min-width:950px){
+    .entrar{
+        display: none;
+    }
+
+  }
