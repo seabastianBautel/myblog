@@ -37,7 +37,7 @@ h4{
     border-radius: 2px;
     width: 90%;
     overflow: hidden;
-    padding-left: 60px;
+    padding-left: 50px;
     text-decoration: none;
 }
 .of-people2{
@@ -113,6 +113,16 @@ h4{
 .entrar{
     padding-left: 60px;
 }
+.Menu{
+    scale: none;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+div:hover .Menu {
+    scale: 1.5;
+
+  }
   @media (max-width: 1330px) {
     .Developer-css{
         padding-left: 600px;
