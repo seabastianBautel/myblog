@@ -100,7 +100,7 @@ h4{
 }
 .content{
     border-radius: 40px;
-    padding-top: 110px;
+    padding-top: 130px;
     text-align: left;
 }
 .nav-home,.nav-digital{
@@ -123,6 +123,48 @@ div:hover .Menu {
     scale: 1.5;
 
   }
+  .Digital-div{
+    display:grid;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+    width: 25%;
+    background-color: rgb(240, 242, 255);
+    
+  }
+  .Digital{
+    text-align: center;
+    font-size:small;
+    color:#33344f;
+    text-decoration: none;
+  }
+  .autor{
+    
+    background-color: red;
+    width: 90%;
+  }
+
+  .datos-autor{
+    padding-bottom: 40px;
+    padding-top: 25px;
+    position:relative;
+    text-align:left;
+  }
+  .hans{
+    padding-right: 200px;
+  }
+  .articulo,.hans,.min{
+    padding-left: 30px;
+    display: inline;
+   
+  }
+ .file{
+    width: 20px;
+    height: 20px;
+ }
+
+
   @media (max-width: 1330px) {
     .Developer-css{
         padding-left: 600px;
@@ -181,6 +223,9 @@ div:hover .Menu {
     }
     .contenido-header{
         padding-bottom: 10px;
+    }
+    .of-people2{
+        display: none;
     }
   }
   @media (min-width:950px){
