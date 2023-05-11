@@ -1,21 +1,28 @@
-header{
+header {
     position: fixed;
-    width:100%; /* Establecemos que el header abarque el 100% del documento */
-	overflow:hidden; /* Eliminamos errores de float */
-	background:#fafafa;
-	margin-bottom:20px; 
+    width: 100%;
+    /* Establecemos que el header abarque el 100% del documento */
+    overflow: hidden;
+    /* Eliminamos errores de float */
+    background: #fafafa;
+    margin-bottom: 20px;
     border-radius: 2px;
-    border-bottom: 1px solid rgb(190, 184, 184);  
+    border-bottom: 1px solid rgb(190, 184, 184);
 }
-body,h4,html{
+
+body,
+h4,
+html {
     margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-h4{
+
+h4 {
     border-radius: 3px;
-   
+
 }
-.logo{
+
+.logo {
     background-color: lightgrey;
     width: 100%;
     margin-bottom: 10px;
@@ -24,15 +31,18 @@ h4{
     padding-top: 6px;
     color: lightseagreen;
     padding-left: 40px;
-    
+
 }
-.contenido-header{
+
+.contenido-header {
     color: black;
     border-radius: 2px;
     padding-bottom: 25px;
 }
-.of-people,.of-people2{
-    font-size:larger;
+
+.of-people,
+.of-people2 {
+    font-size: larger;
     color: black;
     border-radius: 2px;
     width: 90%;
@@ -40,33 +50,40 @@ h4{
     padding-left: 50px;
     text-decoration: none;
 }
-.of-people2{
+
+.of-people2 {
     font-size: small;
 }
-.Developer-css{
+
+.Developer-css {
     text-decoration: none;
     color: black;
     padding-left: 1050px;
 }
-.Developer-css:hover{
-    color:inherit;
- }
-.Developer-text{
+
+.Developer-css:hover {
+    color: inherit;
+}
+
+.Developer-text {
     padding-left: 20px;
-    position:fixed;
+    position: fixed;
     text-decoration: none;
 }
-.lupa{
+
+.lupa {
     margin-left: 600px;
-   
-    
+
+
 }
-.lupa-img{
+
+.lupa-img {
     padding-right: 10px;
-    
-    border-right: 2px solid lightslategrey; 
+
+    border-right: 2px solid lightslategrey;
 }
-.Sesion{
+
+.Sesion {
     color: lightseagreen;
     text-decoration: none;
     border-radius: 3px;
@@ -77,9 +94,10 @@ h4{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 3px;
-    padding-bottom: 3px;   
+    padding-bottom: 3px;
 }
-.registrate{
+
+.registrate {
     margin-left: 15px;
     text-decoration: none;
     background-color: lightseagreen;
@@ -92,28 +110,36 @@ h4{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 3px;
-    padding-bottom: 3px;  
+    padding-bottom: 3px;
 }
-.nav,.content{
+
+.nav,
+.content {
     margin-left: 25%;
     margin-right: 25%;
 }
-.content{
+
+.content {
     border-radius: 40px;
     padding-top: 130px;
     text-align: left;
 }
-.nav-home,.nav-digital{
+
+.nav-home,
+.nav-digital {
     text-decoration: none;
     color: black;
 }
-.nav-digital{
+
+.nav-digital {
     padding-left: 6px;
 }
-.entrar{
+
+.entrar {
     padding-left: 60px;
 }
-.Menu{
+
+.Menu {
     scale: none;
     padding-top: 10px;
     padding-left: 25px;
@@ -122,70 +148,139 @@ h4{
 div:hover .Menu {
     scale: 1.5;
 
-  }
-  .Digital-div{
-    display:grid;
+}
+
+.Digital-div {
+    display: grid;
     margin-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 100px;
     width: 25%;
     background-color: rgb(240, 242, 255);
-    
-  }
-  .Digital{
+
+}
+
+.Digital {
     text-align: center;
-    font-size:small;
-    color:#33344f;
+    font-size: small;
+    color: #33344f;
     text-decoration: none;
-  }
-  .autor{
-    
+}
+
+.autor {
+
     background-color: red;
     width: 90%;
-  }
+}
 
-  .datos-autor{
+.datos-autor {
     padding-bottom: 40px;
     padding-top: 25px;
-    position:relative;
-    text-align:left;
-  }
-  .hans{
-    padding-right: 200px;
-  }
-  .articulo,.hans,.min{
-    padding-left: 30px;
+    text-align: left;
+}
+
+.hans {
     display: inline;
-   
-  }
- .file{
+    padding-left: 20px;
+    padding-right: 170px;
+}
+
+.articulo {
+    padding-left: 10px;
+}
+
+.min {
+    padding-left: 10px;
+}
+
+.articulo,
+.hans,
+.min {
+    display: inline;
+
+}
+
+.file,
+.file2 {
     width: 20px;
     height: 20px;
- }
+}
 
+.file2 {
+    padding-left: 15px;
+}
 
-  @media (max-width: 1330px) {
-    .Developer-css{
-        padding-left: 600px;
+.user {
+    width: 30px;
+    height: 30px;
+}
+
+.text-indice {
+
+    display: inline;
+    font-size: large;
+    padding-left: 20px;
+}
+
+.arrow-up {
+    width: 30px;
+    height: 30px;
+}
+
+.indice {
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #f2f3f5;
+}
+
+.arrow-abajo {
+    display: none;
+}
+
+.arrow-li {
+    display: none;
+}
+
+#li:hover .indice-li {
+    display: flex;
+}
+
+#arrow-Up:hover .arrow-up {
+    display: flex;
+    transform: rotate(180deg);
+}
+#arrow-Up:hover .arrow-li {
+    display: flex;
+    
+}
+
+@media (max-width: 1330px) {
+    .Developer-css {
+        padding-left: 1000px;
     }
-    .lupa{
-        margin-left: 200px; 
+
+    .lupa {
+        margin-left: 450px;
     }
-  }
+}
 
 
-  @media (max-width: 950px) {
-    .Developer-text{
+@media (max-width: 950px) {
+    .Developer-text {
         padding-left: 0px;
     }
-    .of-people{
+
+    .of-people {
         padding-left: 30px;
     }
-    .of-people2{
+
+    .of-people2 {
         padding-left: 0px;
     }
-    .entrar{
+
+    .entrar {
         margin-left: 10px;
         text-decoration: none;
         background-color: lightseagreen;
@@ -198,39 +293,49 @@ div:hover .Menu {
         padding-left: 5px;
         padding-right: 5px;
         padding-top: 2px;
-        padding-bottom: 2px;  
+        padding-bottom: 2px;
     }
-    .Developer-css{
+
+    .Developer-css {
         padding-left: 130px;
     }
-    .Sesion ,.registrate{
-        display: none;
-    }
-    .lupa{
-        margin-left: 6px;
-    }
-    .img-content{
-        padding-right: 40%;
-        width: 200px;
-    }
-    p{
-        font-size: small;
-    }
-   
-    .nav-digital,.nav-home{
-        font-size: x-small;
-        padding-left: 6px;
-    }
-    .contenido-header{
-        padding-bottom: 10px;
-    }
-    .of-people2{
-        display: none;
-    }
-  }
-  @media (min-width:950px){
-    .entrar{
+
+    .Sesion,
+    .registrate {
         display: none;
     }
 
-  }
+    .lupa {
+        margin-left: 6px;
+    }
+
+    .img-content {
+        padding-right: 40%;
+        width: 200px;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .nav-digital,
+    .nav-home {
+        font-size: x-small;
+        padding-left: 6px;
+    }
+
+    .contenido-header {
+        padding-bottom: 10px;
+    }
+
+    .of-people2 {
+        display: none;
+    }
+}
+
+@media (min-width:950px) {
+    .entrar {
+        display: none;
+    }
+
+}
