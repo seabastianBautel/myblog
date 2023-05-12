@@ -251,9 +251,25 @@ div:hover .Menu {
     display: flex;
     transform: rotate(180deg);
 }
+
 #arrow-Up:hover .arrow-li {
     display: flex;
-    
+
+}
+
+.img-content {
+    width: 600px;
+    height: 300px;
+}
+
+.indice-ordenado {
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
 }
 
 @media (max-width: 1330px) {
@@ -331,6 +347,89 @@ div:hover .Menu {
     .of-people2 {
         display: none;
     }
+
+    .file,
+    .file2 {
+        padding-top: 20px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .file2 {
+        padding-left: 10px;
+    }
+
+    .user {
+        width: 20px;
+        height: 20px;
+    }
+
+    .text-indice {
+
+        display: inline;
+        font-size: large;
+        padding-left: 15px;
+    }
+
+    .arrow-up {
+        width: 20px;
+        height: 20px;
+    }
+
+    .indice {
+        border-radius: 20px;
+        margin: 0px;
+        padding: 10px;
+        background-color: #f2f3f5;
+    }
+    .Digital {
+        text-align: center;
+        font-size: small;
+        color: #33344f;
+        text-decoration: none;
+    }
+    
+    .autor {
+    
+        background-color: red;
+        width: 90%;
+    }
+    
+    .datos-autor {
+        padding-bottom: 30px;
+        padding-top: 25px;
+        text-align: left;
+    }
+    
+    .hans {
+        display: inline;
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+    
+    .articulo {
+        padding-left: 5px;
+    }
+    
+    .min {
+        padding-left: 5px;
+    }
+    .img-content {
+        padding-left: 10%;
+        width: 200px;
+        height: 200px;
+    }
+    .Digital-div {
+        
+        width: 95%;
+      
+    
+    }
+    .content {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
 }
 
 @media (min-width:950px) {
