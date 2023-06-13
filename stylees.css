@@ -115,9 +115,23 @@ h4 {
 
 .nav,
 .content {
+    display: flexbox;
     margin-left: 25%;
     margin-right: 25%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
 
 .content {
     border-radius: 40px;
@@ -436,5 +450,10 @@ a:visited {
     .entrar {
         display: none;
     }
+    @media (max-width: 600px) {
+        .column {
+          flex: 100%;
+        }
+      }
 
 }
