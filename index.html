@@ -8,14 +8,14 @@
   <link rel="stylesheet" href="normalize.css" />
   <link rel="stylesheet" href="stylees.css" />
   <title>Mi Blog</title>
+  <script src="main.js"></script>
 </head>
 
 <body>
-  <script src="main.js"></script>
   <header>
     <div class="wrapper">
-      <div class="logo" id="navbar">
-        <nav id="navbar">
+      <div class="logo" id="navbar-logo">
+        <nav>
           <h4 class="Developer-text">Developer</h4>
           <a class="Developer-css" href="#">conoce mas sobre Developer > </a>
         </nav>
@@ -45,10 +45,48 @@
     <div class="Digital-div">
       <a href="#" class="Digital">Transformación digital</a>
     </div>
-    <h1>
-      HTML y CSS: los poderosos lenguajes informáticos para crear una página
-      web
-    </h1>
+    <div class="titulo-slider">
+
+
+      <h5 class="enlace1 compartir">compartir</h5>
+      <a class="enlace1 " href="#"><img width="30" height="30" src="https://img.icons8.com/color/30/facebook-new.png"
+          alt="facebook-new" /></a>
+          <br>
+      <a class="enlace1 " href="#"><img width="30" height="30" src="https://img.icons8.com/color/30/twitter--v1.png"
+          alt="twitter--v1" /></a>
+          <br>
+      <a class="enlace1 " href="#"><img width="30" height="30" src="https://img.icons8.com/color/30/linkedin-2--v1.png"
+          alt="linkedin-2--v1" /></a>
+          <br>
+      <a class="enlace1 " href="#"><img width="30" height="30" src="https://img.icons8.com/ios/30/link--v1.png"
+          alt="link--v1" /></a>
+      <h1>
+        HTML y CSS: los poderosos lenguajes informáticos para crear una página
+        web
+      </h1>
+    </div>
+
+
+    <!-- 
+   <h1 class="titulo-p">
+        HTML y CSS: los poderosos lenguajes informáticos para crear una página
+        web
+      </h1>
+      <button type="button"><img src="multimedia/imagenes/facebook.png" alt="Facebook"></button>
+      <button type="button"><img src="multimedia/imagenes/twitter-icon.png" alt="Twitter"></button>
+      <button type="button"><img src="multimedia/imagenes/linkedin-icon.png" alt="LinkedIn"></button>
+      <button type="button"><img src="multimedia/imagenes/enlace.png" alt="Instagram"></button>
+ -->
+
+ <div class="datos-autor">
+  <img class="user" src="multimedia/imagenes/user.svg" alt="" />
+  <h5 class="hans">Hans Baumann - 04 Jun 21</h5>
+  <img class="file" src="multimedia/imagenes/file.svg" alt="" />
+  <p class="articulo">Articulo</p>
+  <img class="file2" src="multimedia/imagenes/eye.svg" alt="" />
+  <p class="min">9 min.</p>
+</div>
+
     <div id="arrow-Up" class="indice">
       <img class="arrow-up" src="multimedia/imagenes/arrow-up.svg" alt="" />
       <div class="arrow-li">
@@ -100,15 +138,6 @@
 
       <p class="text-indice"><b>Indice</b></p>
     </div>
-
-    <div class="datos-autor">
-      <img class="user" src="multimedia/imagenes/user.svg" alt="" />
-      <h5 class="hans">Hans Baumann - 04 Jun 21</h5>
-      <img class="file" src="multimedia/imagenes/file.svg" alt="" />
-      <p class="articulo">Articulo</p>
-      <img class="file2" src="multimedia/imagenes/eye.svg" alt="" />
-      <p class="min">9 min.</p>
-    </div>
     <p>
       <b> HTML y CSS</b> son dos <b>lenguajes informáticos</b> claves para <b>desarrollar un
         sitio web.</b> Si no lo sabías, no te preocupes. Una vez hayas terminado de
@@ -121,25 +150,25 @@
     </p>
     <p>
       ¡Pero esto es solo el principio! Antes de comenzar un viaje para
-    <b>  aprender a construir sitios web con HTML y CSS</b>, es importante entender
+      <b> aprender a construir sitios web con HTML y CSS</b>, es importante entender
       las diferencias entre estos dos lenguajes, la estructura y sintaxis de
       cada uno de ellos y los términos más comunes.
     </p>
     <p>
       Una vez entendida la <b>diferencia entre HTML y CSS</b>, profundizaremos en
-     <b> HTML</b> e incluso veremos una <b>breve historia de HTML</b> para no dejar escapar
+      <b> HTML</b> e incluso veremos una <b>breve historia de HTML</b> para no dejar escapar
       ni un detalle.
     </p>
     <p>¡Que tengas un buen aprendizaje! 💻</p>
 
-    <h2 id="Qué significa el lenguaje HTML?" >¿Qué significa el lenguaje HTML?</h2>
+    <h2 id="Qué significa el lenguaje HTML?">¿Qué significa el lenguaje HTML?</h2>
     <p>
       El lenguaje HTML fue creado en 1989 por Tim Berners-Lee y es el acrónimo
       de Hypertext Markup Language, que traducido de manera directa al español
       sería Lenguaje de Marcado de Hipertexto.
     </p>
     <p>
-     <b> Hypertext Markup Language</b>, que traducido de manera directa al español
+      <b> Hypertext Markup Language</b>, que traducido de manera directa al español
       sería Lenguaje de Marcado de Hipertexto.
     </p>
     <p>
@@ -156,7 +185,7 @@
     </p>
     <img class="img-content" src="multimedia/imagenes/css-relaciona.jpg" alt="" />
     <h2 id="Qué es el HTML en informática?">¿Qué es el HTML en informática?</h2>
-    <p >
+    <p>
       Entonces, el <b>HTML</b> es un lenguaje que permite definir la
       estructura del contenido de una página web a través del uso de elementos
       envueltos en etiquetas compatibles universalmente. Esto permite que
@@ -208,29 +237,33 @@
         este DOM funciona como un documento para la memoria del ordenador, de
         forma que puede combinar el contenido del documento en texto con su hoja
         de estilo.</li>
-        <br>
+      <br>
       <li> El navegador muestra el contenido del DOM al usuario.</li>
     </ol>
-      <br>
-      <img class="img-content" src="multimedia/imagenes/3_que-es-css.jpg" alt="">
-      <h2>¿Qué es el DOM? </h2>
-      <p>
-        El DOM (Document Object Model) en español significa textualmente Modelo de Objetos del Documento. En
-        programación, todas las páginas web HTML se denominan documentos.
-      </p>
+    <br>
+    <img class="img-content" src="multimedia/imagenes/3_que-es-css.jpg" alt="">
+    <h2>¿Qué es el DOM? </h2>
+    <p>
+      El DOM (Document Object Model) en español significa textualmente Modelo de Objetos del Documento. En
+      programación, todas las páginas web HTML se denominan documentos.
+    </p>
 
-      <p>El modelo de objetos de este documento representa cada una de estas páginas web en una estructura en forma de
-        árbol para facilitar el acceso y la gestión de los elementos. De manera general el DOM es esencialmente un
-        intento de convertir la estructura y el contenido del documento HTML en un modelo de objetos que puede ser
-        utilizado por varios programas o navegadores.</p>
-      <p>La estructura de objetos del DOM está representada por lo que se llama un "árbol de nodos" y se llama así
-        porque se puede pensar en un árbol con un solo tallo padre que se ramifica en varias ramas secundarias, cada una
-        de las cuales puede tener hojas. En este caso, el "tallo" principal es el elemento raíz <html>, las "ramas"
-        secundarias son los elementos anidados y las "hojas" son el contenido dentro de los elementos.</p>
-
-      <h5>Fuente: Slideshare</h5>
-
-   
+    <p>El modelo de objetos de este documento representa cada una de estas páginas web en una estructura en forma de
+      árbol para facilitar el acceso y la gestión de los elementos. De manera general el DOM es esencialmente un
+      intento de convertir la estructura y el contenido del documento HTML en un modelo de objetos que puede ser
+      utilizado por varios programas o navegadores.</p>
+    <p>La estructura de objetos del DOM está representada por lo que se llama un "árbol de nodos" y se llama así
+      porque se puede pensar en un árbol con un solo tallo padre que se ramifica en varias ramas secundarias, cada una
+      de las cuales puede tener hojas. En este caso, el "tallo" principal es el elemento raíz <html>, las "ramas"
+      secundarias son los elementos anidados y las "hojas" son el contenido dentro de los elementos.</p>
+    <h5>Fuente: Slideshare</h5>
+  </div>
+  <div class="footer-container">
+    <footer class="footer">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga delectus nulla quo alias veniam nesciunt, atque
+        rem doloribus, inventore quae perspiciatis sunt ipsa consequuntur aspernatur provident ipsum modi blanditiis
+        quis.</p>
+    </footer>
   </div>
 </body>
 
