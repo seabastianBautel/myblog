@@ -326,6 +326,7 @@ a{
  
   
   .footer-container{
+    margin: 0;
     position: sticky;
     background-color: aqua;
     width: 100%;
@@ -333,9 +334,27 @@ a{
    
   }
   .footer{
-   
+    margin: 0;
     bottom: 0;
   }
+
+.ejemplo-button{
+    background-color: black;
+    color: #f2f3f5;
+   padding-bottom: 50px;
+}
+#signoMenor,#signoMayor,#barraCierre{
+    color: #ece9e9a8;
+}
+#buttonApertura,#buttonCierre{
+   color: #569cd6;
+}
+#id-ejemplo{
+    color: #9cdcfe;
+}
+#textoBotoncompra{
+    color: #ce9178;
+}
   @media (max-width:1345px) {
     .registros {
         left: 200px;
